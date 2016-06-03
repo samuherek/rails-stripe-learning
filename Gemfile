@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise', '~> 4.1', '>= 4.1.1'
+gem 'stripe', '~> 1.43'
 
 gem 'administrate'
 

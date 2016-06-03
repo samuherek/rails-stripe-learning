@@ -41,3 +41,7 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
+
+
+STRIPE_SECRET = "sk_test_ywdGq2sAUadw4Ew3akIWoT8r"
+STRIPE_PUBLIC = "pk_test_OCep7IpIyttcIofE59U9ILwN"
