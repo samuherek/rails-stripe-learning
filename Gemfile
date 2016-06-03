@@ -13,6 +13,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise', '~> 4.1', '>= 4.1.1'
 
+gem 'administrate'
+
 group :development, :test do
   gem 'byebug'
   gem 'guard'
