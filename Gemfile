@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'devise', '~> 4.1', '>= 4.1.1'
 
 group :development, :test do
   gem 'byebug'
@@ -20,7 +21,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
-  
+
 end
 
 group :development do
