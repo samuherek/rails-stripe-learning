@@ -77,3 +77,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
+
+STRIPE_SECRET = "sk_test_ywdGq2sAUadw4Ew3akIWoT8r"
+STRIPE_PUBLIC = "pk_test_OCep7IpIyttcIofE59U9ILwN"
