@@ -13,8 +13,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'stripe', '~> 1.43'
 
-gem 'administrate'
-
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
@@ -30,7 +28,7 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
-
+  gem 'administrate'
 end
 
 
